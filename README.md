@@ -16,7 +16,7 @@ This Flutter project is a simple recipe listing UI built as part of an internshi
 # Features
 - Custom `RecipeCard` widget showing:
   - Image of the recipe
-  - Title, description (truncated)
+  - Title, description 
   - Likes (with heart icon)
   - Time (with clock icon)
   - Vegan status (with leaf icon)
