@@ -37,6 +37,7 @@ class RecipeCard extends StatelessWidget {
           ),
 
           // Text and info section
+          
                     Expanded(
             child: Padding(
               padding: const EdgeInsets.all(10),
@@ -56,7 +57,7 @@ class RecipeCard extends StatelessWidget {
                   const SizedBox(height: 8),
                   Row(
                     children: [
-                      // Likes icon and count below
+                      // Likes icon
                       Column(
                         children: [
                           Icon(Icons.favorite, size: 20, color: Colors.red,),
@@ -65,7 +66,7 @@ class RecipeCard extends StatelessWidget {
                       ),
                       const SizedBox(width: 12),
 
-                      // Number icon and count below
+                      // Number icon 
                       Column(
                         children: [
                           Icon(Icons.access_time, size: 20, color: Colors.amber),
@@ -74,7 +75,7 @@ class RecipeCard extends StatelessWidget {
                       ),
                       const SizedBox(width: 12),
 
-                      // Vegan icon stacked over text
+                      // Vegan 
                       Column(
                         children: [
                           Icon(Icons.eco, size: 20, color: isVegan ? Colors.green : Colors.black54),
