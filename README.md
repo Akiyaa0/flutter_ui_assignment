@@ -1,16 +1,28 @@
-# flutter_ui_assignment
+#  Flutter UI Assignment – Intern Flutter Developer
 
-A new Flutter project.
+# Overview
+This Flutter project is a simple recipe listing UI built as part of an internship assignment. It showcases a responsive and clean UI that displays recipe cards with details like title, description, likes, time, and whether the recipe is vegan.
 
-## Getting Started
+# Tech Stack
+- Flutter
+- Dart
 
-This project is a starting point for a Flutter application.
+# Design Decisions & Assumptions
+- Followed the given UI layout exactly as per the image provided.
+- Used static data to simulate recipe content (no backend or API integration).
+- Used simple layout widgets like `ListView`, `Card`, `Row`, `Expanded`, and `BottomNavigationBar`.
+- Search and FAB button actions are placeholders for interaction demonstration.
+  
+# Features
+- Custom `RecipeCard` widget showing:
+  - Image of the recipe
+  - Title, description (truncated)
+  - Likes (with heart icon)
+  - Time (with clock icon)
+  - Vegan status (with leaf icon)
+- Floating Action Button and AppBar with actions
+- Bottom navigation with icons and labels
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Submission
+Developer: Akesh Munasinghe  
+- GitHub Repo:https://github.com/Akiyaa0/flutter_ui_assignment.git
